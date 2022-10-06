@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+  }
+  p{
+  	font-size: 1.1rem;
+  }
+  button{
+  	margin-bottom: 1rem;
+  }
+  .sekcija{
+  	padding: 30px 0;
+  }
+  .sekcija:nth-child(odd){
+    background: #f1f1f1;
+  }
+  #intro{
+    padding-top: 100px;
+  }
+  #omeni{
+    padding: 100px 0;
+  }
+  .social{
+  	margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+  }
+  .social li{
+    margin-right: 15px;
+  }
+  .footer{
+  	background: var(--light);
+    padding: 15px 0;
+  }
+  #intro img{
+  	animation: puls 2s infinite;
+  }
+  
+  #intro h1,#intro h2{
+  	animation: fade 3s;
+  }
+  
+  @keyframes puls {
+  	0%   {transform: scale(1)}
+  	50% {transform: scale(1.1)}
+    100%   {transform: scale(1)}
+  }
+  
+  @keyframes fade {
+  	0%   {opacity: 0}
+    100%   {opacity: 1}
+  }
